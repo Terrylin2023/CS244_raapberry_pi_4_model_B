@@ -30,7 +30,7 @@ Then, you must set up the **Username** and **Password**
   ```
 - capture video
   ```
-  libcamrea-vid -o demo.h264 -t 5000
+  libcamera-vid -o demo.h264 -t 5000
   ```
 > **-o** set the file name **-t** record time
 
