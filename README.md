@@ -19,10 +19,28 @@ Click **Enabled SSH**
 Then, you must set up the **Username** and **Password**
 ![](https://github.com/Terrylin2023/raapberry_pi_4_model_B/blob/main/screenshot/Screenshot%202024-04-10%20at%2000.23.58.png)
 
-> After writing the .img file to the SD card, boot your Raspberry Pi 3 for Raspbian installation.
+> After writing the .img file to the SD card, boot your Raspberry Pi 4 for Raspbian installation.
 ## 2. Configure Raspberry Pi
-  
-   
+  If you don't want to buy or you don't have a mouse and keybroad, VNC is a good choice. Raspberry Pi 4 model B provides WiFi module, so you  can just set up and use ssh to connect it.
+  ```
+  ssh cs244@192.168.xx.xxx
+  ```
+Its fromat is " **ssh username@your ip address** "
+After that, you can just use CLI.
+If you want to use GUI, I recommand to use VNC. Additionally, you don't need to worry about the problem about **dynamic IP address** (Usually the IP address will change in nowadays,or you set up a static IP address)
+   You will need an ethernet cable (maybe also an adapter) and then connect to your Raspberry Pi and laptop.
+   - Step 1 Open the termainal and check the IP address
+ ```
+    ifconfig
+ ```
+  You should see "bridge100" and see the **inet**
+   - Step 2 Open the VNC(follow the installation from website and make sure you enable VNC on your Raspberry Pi) Ref:https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html
+
+     Enter the "IP addrress **+1**" EX:ip=192.163.1.1
+
+     You should enter 192.163.1.**2** Then just enter your username and password
+     
+     
 ## 3. Using camera module to capture picture and video
 - capture picture
   ```
