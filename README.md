@@ -34,11 +34,14 @@ If you want to use GUI, I recommand to use VNC. Additionally, you don't need to 
     ifconfig
  ```
   You should see "bridge100" and see the **inet**
+  ![](https://github.com/Terrylin2023/raapberry_pi_4_model_B/blob/main/screenshot/Screenshot%202024-04-11%20at%2023.16.17.png)
    - Step 2 Open the VNC(follow the installation from website and make sure you enable VNC on your Raspberry Pi) Ref:https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html
-
+    ![](https://github.com/Terrylin2023/raapberry_pi_4_model_B/blob/main/screenshot/Screenshot%202024-04-11%20at%2023.24.53.png)
      Enter the "IP addrress **+1**" EX:ip=192.163.1.1
 
-     You should enter 192.163.1.**2** Then just enter your username and password
+     You should enter 192.163.1.**2** Then you will be asked to enter your username and password.
+### Success
+![](https://github.com/Terrylin2023/raapberry_pi_4_model_B/blob/main/screenshot/Screenshot%202024-04-11%20at%2023.25.30.png)
      
      
 ## 3. Using camera module to capture picture and video
