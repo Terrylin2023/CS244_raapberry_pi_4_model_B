@@ -1,6 +1,6 @@
 # Raspberry_Pi_4_model_B
 
-This is a project that using raspberry pi.
+This is a project that using raspberry pi. If there is any question, feel free to contact me. email:chengsl3@uci.edu
 
 ## 1. Install Raspberry Pi OS
   - Go to https://www.raspberrypi.com/software/  (Install Raspberry Pi OS using Raspberry Pi Imager)
