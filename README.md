@@ -56,3 +56,4 @@ If you want to use GUI, I recommand to use VNC. Additionally, you don't need to 
 > **-o** set the file name **-t** record time
 
 
+ffmpeg -i frame%03d_s_1.00_l_0.20_h_0.60.pgm -pix_fmt yuvj420p frame_vid.h264
