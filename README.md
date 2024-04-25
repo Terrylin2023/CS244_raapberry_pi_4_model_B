@@ -55,5 +55,15 @@ If you want to use GUI, I recommand to use VNC. Additionally, you don't need to 
   ```
 > **-o** set the file name **-t** record time
 
-
+## 4. Compile the code(usually it's opencv4 now)
+```
+g++ canny_util.c camera_canny.cpp -o camera_canny -I. `pkg-config --cflags --libs opencv4`
+```
+Test it
+```
+./camera_canny 1.0 0.2 0.6
+```
+## 5. Encoding the processed images into a video
+```
 ffmpeg -i frame%03d_s_1.00_l_0.20_h_0.60.pgm -pix_fmt yuvj420p frame_vid.h264
+```
